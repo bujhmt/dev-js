@@ -1,11 +1,14 @@
 {
-  "name": "dev-js",
+  "name": "@bujhmt/dev-js",
   "version": "0.0.1",
   "description": "useful tools for js / ts applications development",
   "main": "index.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bujhmt/dev-js.git"
+  },
+  "scripts": {
+    "test": "exit 0"
   },
   "keywords": [
     "development",
@@ -19,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/bujhmt/dev-js/issues"
   },
-  "homepage": "https://github.com/bujhmt/dev-js#readme"
+  "homepage": "https://github.com/bujhmt/dev-js#readme",
+  "publishConfig": {
+    "@bujhmt:registry":"https://npm.pkg.github.com/"
+  }
 }
