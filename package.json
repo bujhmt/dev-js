@@ -1,14 +1,15 @@
 {
   "name": "@bujhmt/dev-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "useful tools for js / ts applications development",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/bujhmt/dev-js.git"
   },
   "scripts": {
-    "test": "exit 0"
+    "build": "rm -rf dist && tsc"
   },
   "keywords": [
     "development",

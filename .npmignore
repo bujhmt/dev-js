@@ -36,3 +36,9 @@ lerna-debug.log*
 # Custom
 .gitignore
 README.md
+package-lock.json
+tslint.json
+tsconfig.json
+tsconfig.tsbuildinfo
+src
+.github/
