@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/bujhmt/dev-js#readme",
   "publishConfig": {
-    "@bujhmt:registry":"https://npm.pkg.github.com/"
+    "registry":"https://npm.pkg.github.com/"
   }
 }
