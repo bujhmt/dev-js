@@ -5,7 +5,7 @@
   "main": "index.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bujhmt/dev-js.git"
+    "url": "git//github.com/bujhmt/dev-js.git"
   },
   "scripts": {
     "test": "exit 0"
